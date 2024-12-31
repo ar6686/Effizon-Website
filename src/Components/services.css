@@ -1,0 +1,158 @@
+.my-blocks-container {
+    height: 100%;
+    width: 100%;
+  }
+  
+
+  
+  .my-blocks-container .blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+  }
+  
+  .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    gap: 100px;
+    position: relative;
+  }
+  .blocktext{
+    width: calc((100% + 16px) / 12* 5 - 16px);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+      justify-content: space-evenly;
+      gap: 30px;
+  }
+  .blockimg{
+    width: 600px;
+    height: 800px;
+  }
+  .blockimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+  }
+
+  @media (max-width: 1000px) {
+    .blocks{
+      margin-top: 100px;
+    }
+    .block {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    
+    
+    .blockimg {
+      order: -1;
+    }
+  }
+  .servicesHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+    margin-left: 4vw;
+    margin-top: 100px;
+    width: 40%;
+  }
+  .blocktext ul li{
+    font-family: UniversalSans-740, Arial, sans-serif;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .blocktext ul li:before {
+    content: "—";
+    color: rgba(194, 187, 187, 0.788);
+    margin-right: 10px;
+}
+.blocktext a{
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  width: 400px;
+}
+.blocktext h1{
+  color: red;
+  text-decoration: underline;
+}
+@media (max-width: 1500px) {
+  .servicesHero{
+    width: 70%;
+  }
+  .servicesHero h1{
+    font-size: 40px;
+    font-weight: 500;
+
+  }
+}
+@media (max-width: 1000px) {
+  .blocks {
+      margin-top: 100px;
+  }
+
+  .block {
+      flex-direction: column;
+      text-align: center;
+      gap: 50px; /* Reduce gap for smaller screens */
+  }
+
+  .blockimg {
+      order: -1; /* Move image on top */
+      width: 100%; /* Make image width responsive */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .blocktext {
+      width: 100%; /* Adjust text block width */
+      height: auto; /* Adjust height */
+  }
+}
+
+@media (max-width: 768px) {
+  .my-blocks-container {
+      padding: 0 10px; /* Add some padding to container */
+  }
+
+  .block {
+      gap: 20px; /* Further reduce gap between text and image */
+  }
+
+  .blocktext {
+      font-size: 16px; /* Make text smaller for mobile */
+      height: auto; /* Let content flow naturally */
+  }
+
+  .blockimg {
+      width: 100%; /* Ensure image takes full width */
+      height: auto; /* Keep height responsive */
+  }
+
+  .blocktext ul li {
+      font-size: 18px; /* Smaller font for list items */
+  }
+
+  .blocktext a {
+      font-size: 16px; /* Adjust link font size */
+      width: 100%; /* Allow link width to be responsive */
+  }
+
+  .servicesHero {
+      width: 95%; /* Make hero section full width */
+  }
+  .contactCard{
+    display: none;
+  }
+}
