@@ -230,6 +230,7 @@ font-size: 30px;
   }
   
   .allStuffMedia img {
+    min-width: 30vw;
     width: 100%;
     height: 500px;
   }

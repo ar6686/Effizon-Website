@@ -200,3 +200,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+img, video{
+  background-color: #dbdbdb47;
+}
+.logoImage{
+  background-color: transparent;
+}

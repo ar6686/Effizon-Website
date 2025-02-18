@@ -37,7 +37,7 @@ return(
             </div>
         </div>
     <div className="roleRight">
-    <img src="/assets/panoramaimg1.webp" alt="" />
+    <img src="/assets/panoramaimg1-min.webp" alt="" />
 </div>
     </div>
 
@@ -48,7 +48,7 @@ return(
         <p>Ensuring optimal viewing on all devices, from desktops to smartphones. Integrated to simplify appointment scheduling for patients. Enhanced to improve search engine rankings and visibility. Easy-to-update platform for the clinic's staff.  Immediate assistance for inquiries and appointment setups.</p>
         </div>
         <div className="responsiveWorkImage">
-    <img src="/assets/panorama-responsive.webp" alt="" />
+    <img src="/assets/panorama-responsive-min.webp" alt="" />
             
         </div>
 
@@ -71,10 +71,10 @@ return(
             <p>Explore the key features and design elements implemented for the Panorama Dental Clinic website. Below are visual representations of the site's layout, functionality, and aesthetics.</p>
         </div>
         <div className="allStuffMedia">
-            <img src="/assets/panorama-contact.webp" alt="" />
-            <img src="/assets/panorama-appointment.webp" alt="" />
-            <img src="/assets/panorama-services.webp" alt="" />
-            <img src="/assets/panorama-office.webp" alt="" />
+            <img src="/assets/panorama-contact-min.webp" alt="" />
+            <img src="/assets/panorama-appointment-min.webp" alt="" />
+            <img src="/assets/panorama-services-min.webp" alt="" />
+            <img src="/assets/panorama-office-min.webp" alt="" />
         </div>
     </div>
 </section>
