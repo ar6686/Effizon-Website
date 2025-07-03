@@ -6,7 +6,7 @@ function Nav() {
           <nav className="navbar container">
 
             <Link to="/" className="brand">
-              <img src="/assets/Offical-logo.webp" alt="logo" width="60" />
+              <img src="/assets/new_logo-e.png" alt="logo" width="60" />
               <h3>Effizon</h3>
             </Link>
 
