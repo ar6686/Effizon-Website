@@ -75,7 +75,7 @@ const Contact = () => {
                                 </div>
                                 <div className="information">
                                     <FontAwesomeIcon icon={faEnvelope} className="icon" />
-                                    <p>info@effizon.com</p>
+                                    <p>contact@effizon.com</p>
                                 </div>
                                 <div className="information">
                                     <FontAwesomeIcon icon={faPhone} className="icon" />
