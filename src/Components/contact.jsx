@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faWhatsapp, faYoutube, faLocationDot, faEnvelope, faPhone } from '@fortawesome/free-brands-svg-icons'
 import Nav from './nav';
 import Footer from './footer';
 
@@ -70,18 +70,19 @@ const Contact = () => {
 
                             <div className="info">
                                 <div className="information">
-                                    <img src="images/location.png" className="icon" alt="" />
+                                    <FontAwesomeIcon icon={faLocationDot} className="icon" />
                                     <p>Gothenburg, Sweden</p>
                                 </div>
                                 <div className="information">
-                                    <img src="images/email.png" className="icon" alt="" />
+                                    <FontAwesomeIcon icon={faEnvelope} className="icon" />
                                     <p>info@effizon.com</p>
                                 </div>
                                 <div className="information">
-                                    <img src="images/phone.png" className="icon" alt="" />
+                                    <FontAwesomeIcon icon={faPhone} className="icon" />
                                     <p>+46734969910</p>
                                 </div>
                             </div>
+
 
                             <div className="social-media">
                                 <p>Connect with us :</p>
