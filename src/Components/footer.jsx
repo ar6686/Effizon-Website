@@ -62,13 +62,13 @@ function Footer() {
             <div className="footer-col">
               <h4>follow us</h4>
               <div className="social-links">
-              <a href="https://www.facebook.com/profile.php?id=61566551794365" title="" target='blank'>
+              <a href="https://www.facebook.com/people/Effizon/61577688916841/" title="" target='blank'>
                   <FontAwesomeIcon icon={faFacebookF} />
                 </a>
-                <a href="https://www.instagram.com/effizonmarketing/" title="" target='blank'>
+                <a href="https://www.instagram.com/effizon_official/" title="" target='blank'>
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
-                <a href="https://wa.me/+923446686206" title="" target='blank'>
+                <a href="https://wa.me/+46734969910" title="" target='blank'>
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
                 

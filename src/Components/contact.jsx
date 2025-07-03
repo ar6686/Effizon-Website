@@ -79,17 +79,17 @@ const Contact = () => {
                                 </div>
                                 <div className="information">
                                     <img src="images/phone.png" className="icon" alt="" />
-                                    <p>+923446686206</p>
+                                    <p>+46734969910</p>
                                 </div>
                             </div>
 
                             <div className="social-media">
                                 <p>Connect with us :</p>
                                 <div className="social-icons">
-                                    <a href="https://www.facebook.com/profile.php?id=61566551794365" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faFacebookF} /> </a>
+                                    <a href="https://www.facebook.com/people/Effizon/61577688916841/" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faFacebookF} /> </a>
 
-                                    <a href="https://www.instagram.com/effizonmarketing/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-                                    <a href="https://wa.me/+923446686206" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                                    <a href="https://www.instagram.com/effizon_official/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                                    <a href="https://wa.me/+46734969910" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
                                 </div>
                             </div>
                         </div>
