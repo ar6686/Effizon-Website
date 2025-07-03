@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faWhatsapp, faYoutube, faLocationDot, faEnvelope, faPhone } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faLocationDot, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import Nav from './nav';
 import Footer from './footer';
 
