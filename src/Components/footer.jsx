@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 import { faArrowUpRightFromSquare, faCaretDown, faLink } from '@fortawesome/free-solid-svg-icons';
 function Footer() {
@@ -67,6 +67,9 @@ function Footer() {
                 </a>
                 <a href="https://www.instagram.com/effizon_official/" title="" target='blank'>
                   <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a href="https://www.linkedin.com/in/abdul-rehman-effizon/" title="" target='blank'>
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a href="https://wa.me/+46734969910" title="" target='blank'>
                   <FontAwesomeIcon icon={faWhatsapp} />

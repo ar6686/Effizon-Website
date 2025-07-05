@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faLocationDot, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import Nav from './nav';
 import Footer from './footer';
@@ -91,6 +91,7 @@ const Contact = () => {
                                     <a href="https://www.facebook.com/people/Effizon/61577688916841/" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faFacebookF} /> </a>
 
                                     <a href="https://www.instagram.com/effizon_official/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                                    <a href="https://www.linkedin.com/in/abdul-rehman-effizon/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                                     <a href="https://wa.me/+46734969910" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
                                 </div>
                             </div>

@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import React, { useEffect, useState, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 import { faArrowRight, faArrowUpRightFromSquare, faCaretDown, faLink } from '@fortawesome/free-solid-svg-icons';
 import { HashLink } from 'react-router-hash-link';
@@ -129,10 +129,13 @@ function Landingpage() {
                 <a href="https://www.instagram.com/effizon_official/" title="" target='blank'>
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
+                <a href="https://www.linkedin.com/in/abdul-rehman-effizon/" title="" target='blank'>
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
                 <a href="https://wa.me/+46734969910" title="" target='blank'>
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
-                
+
               </div>
             </div>
           </section>
@@ -147,14 +150,14 @@ function Landingpage() {
               <div href="#" className="ag-courses-item_link">
                 <div className="ag-courses-item_bg" />
                 <div className="ag-courses-item_title">
-                  Website Design
+                  Full-Stack Web Apps
                 </div>
                 <div className="ag-courses-item_date-box">
-                  <span className="ag-courses-item_date">Creating visually stunning, user-focused websites that adapt seamlessly to any device, ensuring a flawless experience across all platforms.</span>
-                <div className="learnMoreServices">
-                <HashLink smooth to="/services#website-design">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
-                  
-                </div>
+                  <span className="ag-courses-item_date">Building custom, scalable, and secure web applications using the MERN stack and modern technologies tailored to your business goals.</span>
+                  <div className="learnMoreServices">
+                    <HashLink smooth to="/services#website-design">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -162,14 +165,14 @@ function Landingpage() {
               <div href="#" className="ag-courses-item_link">
                 <div className="ag-courses-item_bg" />
                 <div className="ag-courses-item_title">
-                  UI/UX Design
+                  WordPress & Shopify Stores
                 </div>
                 <div className="ag-courses-item_date-box">
-                  <span className="ag-courses-item_date">Delivering intuitive, user-friendly interfaces and immersive experiences through research-driven design and testing.</span>
+                  <span className="ag-courses-item_date">Designing fast, conversion-optimized eCommerce stores and business websites on WordPress and Shopify to boost your online presence.</span>
                   <div className="learnMoreServices">
-                  <HashLink smooth to="/services#uiux">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
+                    <HashLink smooth to="/services#wordpress">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
 
-                </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -177,14 +180,14 @@ function Landingpage() {
               <div href="#" className="ag-courses-item_link">
                 <div className="ag-courses-item_bg" />
                 <div className="ag-courses-item_title">
-                  Website Development
+                  Social Media Management
                 </div>
                 <div className="ag-courses-item_date-box">
-                  <span className="ag-courses-item_date">Building high-performance websites with robust functionality using platforms like WordPress, as well as custom programming tailored to your needs.</span>
+                  <span className="ag-courses-item_date">Helping you manage your brand, products, and customer communication across social media platforms and online stores efficiently.</span>
                   <div className="learnMoreServices">
-                  <HashLink smooth to="/services#web-dev">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
+                    <HashLink smooth to="/services#socialmedia">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
 
-                </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -197,8 +200,8 @@ function Landingpage() {
                 <div className="ag-courses-item_date-box">
                   <span className="ag-courses-item_date">Boosting your website's visibility with expert search engine optimization, helping you outrank the competition and attract more traffic.</span>
                   <div className="learnMoreServices">
-                  <HashLink smooth to="/services#seo">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
-                </div>
+                    <HashLink smooth to="/services#seo">Learn more <FontAwesomeIcon icon={faArrowRight} /> </HashLink>
+                  </div>
                 </div>
               </div>
             </div>
@@ -212,14 +215,14 @@ function Landingpage() {
         <div className="featuredWorkHeading">
           <h1>Featured Work</h1>
           <p>Explore some of our latest projects</p>
-          </div>
+        </div>
         <div className="video-container">
           <video controls className="video-player" muted>
             <source src="assets/work-mp4.webm" type="video/webm" />
             Your browser does not support the video tag.
           </video>
         </div>
-       <MoreWork />
+        <MoreWork />
 
 
       </div>

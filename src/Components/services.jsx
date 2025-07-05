@@ -17,56 +17,57 @@ function services() {
         <h1>A full-service digital innovation partner
         </h1>
         <p>
-        At Effizon, we specialize in creating exceptional digital solutions tailored to your needs. Whether you're looking for sleek and functional websites, innovative web applications, or result-driven SEO strategies, our expert team is here to deliver unparalleled quality. Let us help you make a lasting impact online and drive your business forward with confidence.
+          At Effizon, we specialize in creating exceptional digital solutions tailored to your needs. Whether you're looking for sleek and functional websites, innovative web applications, or result-driven SEO strategies, our expert team is here to deliver unparalleled quality. Let us help you make a lasting impact online and drive your business forward with confidence.
         </p>
       </div>
       <div className="my-blocks-container">
         <div className="blocks services">
           <div className="block" id="website-design">
             <div className="blocktext">
-              <h1>Website Design</h1>
-              <p>We design beautiful, functional websites that not only captivate your audience but also offer seamless functionality across all devices. From desktops to mobile phones, your website will look stunning and provide an exceptional user experience no matter the screen size. Let us help you stand out with a responsive design that adapts to any device, ensuring your brand shines everywhere.</p>
+              <h1>Full Stack Web App Development</h1>
+              <p>We develop fast, scalable, and secure web applications using MERN stack (MongoDB, Express.js, React, Node.js). From sleek frontends to powerful backends, we deliver custom solutions that work flawlessly across devices ideal to grow with your needs.</p>
               <ul>
-                <li>Custom Web Design </li>
-                <li>E-commerce Website Design</li>
+                <li>Custom Web Application Development </li>
                 <li>Website Redesign</li>
-                <li>WordPress Website Design</li>
-                <li>Startup Website Design</li>
+                <li>Admin Panels & Dashboards</li>
+                <li>API Integration</li>
+                <li>Real-time Features</li>
               </ul>
-              <Link to= "/contact">
-              <button>Reach us to Explore more</button>
+              <Link to="/contact">
+                <button>Reach us to Explore more</button>
               </Link>
             </div>
             <div className="blockimg">
               <img
-                src="/assets/responsive-services.png"
+                src="/assets/service_01.webp"
                 alt="Website & Responsive Web Design"
               />
             </div>
-            
+
           </div>
-          <div className="block" id='web-dev' >
-          <div className="blockimg">
+          <div className="block" id='wordpress' >
+            <div className="blockimg">
               <img
-                src="/assets/webdev-service.jpg"
+                src="/assets/service_02.webp"
                 alt="Website Development"
               />
             </div>
             <div className="blocktext">
-              <h1>Web Development</h1>
-              <p>Our website development services go beyond just aesthetics. We build high-performing websites that are powerful, scalable, and tailored to your business needs. Whether you need a custom-coded solution or a WordPress-based website, our expertise ensures that your site is fast, secure, and optimized for both performance and user experience.</p>
-              <ul>
-                <li>Custom Website Development</li>
-                <li>Full-Stack Web Development</li>
-                <li>WordPress Development</li>
-                <li>React Development</li>
-                <li>Website Maintenance and Support</li>
-              </ul>
-              <Link to= "/contact">
-              <button>Reach us to Explore more</button>
-              </Link>
-            </div>
-            
+  <h1>WordPress & Shopify Stores</h1>
+  <p>We build high-performing WordPress sites and Shopify stores that are SEO-friendly, fully responsive, and built to convert—perfect for blogs, business sites, or booming online shops.</p>
+  <ul>
+    <li>Custom WordPress Development</li>
+    <li>Shopify Store Setup & Management</li>
+    <li>Speed & Performance Optimization</li>
+    <li>SEO Optimization (On-page & Technical)</li>
+    <li>Website Redesign & Revamp</li>
+  </ul>
+  <Link to="/contact">
+    <button>Reach us to Launch Your Website or Store</button>
+  </Link>
+</div>
+
+
           </div>
           <div className="block" id='seo' >
             <div className="blocktext">
@@ -79,52 +80,53 @@ function services() {
                 <li>Competitor Analysis</li>
                 <li>SEO-Optimized Blog Writing</li>
               </ul>
-              <Link to= "/contact">
-              <button>Reach us to Explore more</button>
+              <Link to="/contact">
+                <button>Reach us to Explore more</button>
               </Link>
             </div>
             <div className="blockimg">
               <img
-                src="/assets/seo-services.jpeg"
+                src="/assets/seo-services.webp"
                 alt="SEO Services"
               />
             </div>
           </div>
-          <div className="block" id='uiux'>
+          <div className="block" id='socialmedia'>
             <div className="blockimg">
               <img
-                src="/assets/uiux-services.jpg"
+                src="/assets/uiux-services.webp"
                 alt="UI/UX Design"
               />
             </div>
             <div className="blocktext">
-              <h1>UI/UX Design</h1>
-              <p>Our UI/UX services are crafted to deliver highly intuitive, user-centric designs that transform interactions into seamless experiences. Through meticulous research and rigorous testing, we ensure your interface is both functional and aesthetically pleasing, driving customer engagement and loyalty. A website’s beauty lies not just in how it looks, but in how easily users can navigate through it.</p>
-              <ul>
-                <li>UI/UX Audits</li>
-                <li>UX Writing</li>
-                <li>Interaction Design</li>
-                <li>UI/UX for E-commerce Websites</li>
-                <li>Multi-Device Interface Designing</li>
-              </ul>
-              <Link to= "/contact">
-              <button>Reach us to Explore more</button>
-              </Link>
-            </div>
-          </div>
-          
+  <h1>Social Media & Stores</h1>
+  <p>We handle your social media and online store so you can focus on growing your business. From creating engaging content to managing orders, inventory, and updates—we ensure your brand stays active, consistent, and profitable across platforms.</p>
+  <ul>
+    <li>Social Media Content & Scheduling</li>
+    <li>Instagram & Facebook Page Management</li>
+    <li>Order & Inventory Handling</li>
+    <li>Store Updates & Product Uploads</li>
+    <li>Customer Engagement & Support</li>
+  </ul>
+  <Link to="/contact">
+    <button>Reach us to Simplify Your Online Management</button>
+  </Link>
+</div>
 
-          
+          </div>
+
+
+
         </div>
 
       </div>
 
       <div className="contactCard">
-    <p>Work With Us</p>
-    <h1>Let’s work together to <br /> build something great.</h1>
-    <button><Link to="/contact">Contact Us</Link></button>
+        <p>Work With Us</p>
+        <h1>Let’s work together to <br /> build something great.</h1>
+        <button><Link to="/contact">Contact Us</Link></button>
 
-</div>
+      </div>
 
 
       <Footer />
