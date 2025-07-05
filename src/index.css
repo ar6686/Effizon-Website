@@ -50,6 +50,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1rem; /* Relative unit for scalability */
+  overflow-x: hidden;
 }
 
 h1 {

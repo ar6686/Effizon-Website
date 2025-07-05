@@ -39,7 +39,7 @@ function services() {
             </div>
             <div className="blockimg">
               <img
-                src="/assets/responsive-min.webp"
+                src="/assets/responsive-services.png"
                 alt="Website & Responsive Web Design"
               />
             </div>
@@ -48,7 +48,7 @@ function services() {
           <div className="block" id='web-dev' >
           <div className="blockimg">
               <img
-                src="/assets/web-dev-min.webp"
+                src="/assets/webdev-service.jpg"
                 alt="Website Development"
               />
             </div>
@@ -85,7 +85,7 @@ function services() {
             </div>
             <div className="blockimg">
               <img
-                src="/assets/seo-min.webp"
+                src="/assets/seo-services.jpeg"
                 alt="SEO Services"
               />
             </div>
@@ -93,7 +93,7 @@ function services() {
           <div className="block" id='uiux'>
             <div className="blockimg">
               <img
-                src="/assets/uiux-min.webp"
+                src="/assets/uiux-services.jpg"
                 alt="UI/UX Design"
               />
             </div>

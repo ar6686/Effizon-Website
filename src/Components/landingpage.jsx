@@ -1,7 +1,7 @@
 import './landingpage.css'
 import Nav from './nav';
 import Footer from './footer';
-import Moreworks from './moreWorks';
+import MoreWork from './morework';
 import Faq from './faq';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -211,14 +211,15 @@ function Landingpage() {
       <div ref={(el) => (sectionRefs.current[1] = el)} className="workBigDiv">
         <div className="featuredWorkHeading">
           <h1>Featured Work</h1>
-          <p>Explore some of our latest projects</p></div>
+          <p>Explore some of our latest projects</p>
+          </div>
         <div className="video-container">
           <video controls className="video-player" muted>
             <source src="assets/work-mp4.webm" type="video/webm" />
             Your browser does not support the video tag.
           </video>
         </div>
-       <Moreworks />
+       <MoreWork />
 
 
       </div>

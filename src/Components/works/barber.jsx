@@ -1,6 +1,6 @@
 import '../work.css'
 import Nav from '../nav';
-import MoreWorks from '../moreWorks';
+import MoreWork from '../morework';
 import Footer from '../footer';
 import { Link } from 'react-router-dom';
 import react from 'react';
@@ -84,7 +84,7 @@ return(
 <div className="moreWorks">
     <h1>More Works</h1>
 </div>
-<MoreWorks />
+<MoreWork />
 
 <div className="contactCard">
     <p>Work With Us</p>

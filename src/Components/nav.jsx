@@ -6,7 +6,7 @@ function Nav() {
           <nav className="navbar container">
 
             <Link to="/" className="brand">
-              <img src="/assets/new_logo-e.png" alt="logo" width="60" />
+              <img src="/assets/new_logo-e.png" alt="logo" width="40" />
               <h3>Effizon</h3>
             </Link>
 
@@ -39,8 +39,8 @@ function Nav() {
                   <li className="address">
                     <div className="menuaddress">
                       <Link to="/contact" >Message</Link>
-                      <p>+923446686206</p>
-                      <p>gothenburg, sweden</p>
+                      <p>+46 734969910</p>
+                      <p>Gothenburg, Sweden</p>
 
                     </div>
                   </li>

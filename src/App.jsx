@@ -12,7 +12,8 @@ import Faq from './Components/faq';
 import Panorama from './Components/works/panorama';
 import Barber from './Components/works/barber';
 import Deco from './Components/works/deco';
-import MoreWorks from './Components/moreWorks';
+import Chevo from './Components/works/chevo';
+import MoreWork from './Components/morework';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
         <Route path="/works/panorama" element={<Panorama />} />
         <Route path="/works/barber" element={<Barber />} />
         <Route path="/works/deco" element={<Deco />} />
-        <Route path="/moreWorks" element={<MoreWorks />} />
+        <Route path="/works/chevo" element={<Chevo />} />
+        <Route path="/morework" element={<MoreWork />} />
         
       </Routes>
     </Router>

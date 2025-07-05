@@ -23,7 +23,7 @@ function Faq() {
         {[ 
           {
             question: "What services does Effizon offer?",
-            answer: "Effizon specializes in services like Responsive Web Design, Website Development, React Web Applications, UI/UX Design, and SEO. We excel in creating custom websites for dentists, doctors, and unique web applications tailored to your needs."
+            answer: "Effizon specializes in services like Responsive Web Design, Website Development, React Web Applications, UI/UX Design, SEO, Wordpress development and Shopify Stores. We excel in creating custom websites and unique web applications tailored to your needs."
           },
           {
             question: "What’s the Effizon workflow for your dream project?",
@@ -31,7 +31,7 @@ function Faq() {
           },
           {
             question: "How long will it take to bring my project to life with Effizon?",
-            answer: "The time frame varies depending on the project's complexity. Most projects take a few days to a few weeks. After assessing your needs, we provide a detailed timeline to keep you informed throughout the process."
+            answer: "Project timelines vary depending on your goals and complexity. Most custom websites and React applications are delivered within a few days to a few weeks. Once we understand your requirements, we provide a clear project roadmap with timelines to keep you updated every step of the way."
           },
           {
             question: "Can I schedule a free consultation with Effizon?",
@@ -39,7 +39,7 @@ function Faq() {
           },
           {
             question: "How do I get started with Effizon?",
-            answer: "Getting started is simple! Contact us through our website or email, and we’ll schedule a consultation to explore your project needs and start making your vision a reality."
+            answer: "Getting started is quick and easy. Simply reach out to us via our website or email, and we’ll set up a free consultation. From there, we’ll dive into your goals, map out a strategy, and kickstart the journey to building your custom web solution."
           }
         ].map((faq, index) => (
           <div className="faq" key={index}>
